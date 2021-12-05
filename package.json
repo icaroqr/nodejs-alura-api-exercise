@@ -1,0 +1,33 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "Example of an NodeJS api learned in Alura",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icaroqr/nodejs-alura-api-exercise.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api"
+  ],
+  "author": "icaro rezende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icaroqr/nodejs-alura-api-exercise/issues"
+  },
+  "homepage": "https://github.com/icaroqr/nodejs-alura-api-exercise#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
